@@ -8,7 +8,7 @@ server = Flask(__name__)
 app = dash.Dash(__name__, server=server)
 
 app.layout = html.Div([
-    html.H1("BI Dashboard"),
+    html.H1("Real-Time BI Dashboard"),
     dcc.Graph(id="sample-chart", figure={
         "data": [{"x": [1, 2, 3], "y": [4, 1, 2], "type": "bar"}],
         "layout": {"title": "Sample Data"}
