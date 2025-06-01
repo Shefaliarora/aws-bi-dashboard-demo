@@ -1,3 +1,4 @@
-streamlit
-pandas
-numpy
+Flask
+dash
+dash-core-components
+dash-html-components
