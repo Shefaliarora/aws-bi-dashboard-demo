@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
-    html.H1("📊 Super Interactive BI Dashboard v1", style={"textAlign": "center"}),
+    html.H1("📊 Super Interactive BI Dashboard v2", style={"textAlign": "center"}),
 
     html.Label("Select Department:"),
     dcc.Dropdown(
